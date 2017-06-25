@@ -1,8 +1,8 @@
 # Updates package indexes of local machine
-sudo apt-get update
+sudo yum update
 
 # Install 'build-essential' and 'tcl'
-sudo apt-get install -y build-essential tcl
+sudo yum install -y build-essential tcl
 
 # Create and Change to '/temp_install' directory
 mkdir /temp_install
@@ -38,7 +38,7 @@ do
 done
 
 # Install 'ruby'
-sudo apt-get install -y ruby
+sudo yum install -y ruby
 
 # Install 'redis' package for ruby
 gem install redis
