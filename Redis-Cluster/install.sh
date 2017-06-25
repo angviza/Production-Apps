@@ -34,7 +34,7 @@ IFS='|' read -a ports <<< "$1"
 
 for port in "${ports[@]}"
 do
-    curl -s https://raw.githubusercontent.com/developersworkspace/Production-Apps/master/Redis-Cluster/Redis/install.sh | bash -s $port
+    curl -s https://raw.githubusercontent.com/angviza/Production-Apps/master/Redis-Cluster/Redis/install.sh | bash -s $port
 done
 
 # Install 'ruby'
