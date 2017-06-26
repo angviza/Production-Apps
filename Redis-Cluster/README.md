@@ -3,6 +3,7 @@
 ## Installing a Redis Cluster across multiple servers.
 
 To install a Redis Cluster across multiple servers you'll need to execute the following command on each of the servers.
+
 `yum -y install gcc-c++ gcc automake autoconf libtool make`
 
 `curl -s https://raw.githubusercontent.com/angviza/Production-Apps/master/Redis-Cluster/install.sh | bash -s "7001|7002|7003|7004|7005|7006|7007|7008"`
