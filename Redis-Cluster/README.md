@@ -1,4 +1,4 @@
-# Redis Cluster
+# Centos7 Redis Cluster
 
 ## Installing a Redis Cluster across multiple servers.
 
